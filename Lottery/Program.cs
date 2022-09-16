@@ -9,29 +9,34 @@ namespace Lottery
         {
 
 
-
             Random random = new Random();
-            int[] temp = new int[6];
+            int[] lottery = new int[6];
 
-            for (int i = 0; i <6; i++)
+            for (int i = 0; i < 6; i++)
             {
                 var value = random.Next(0, 50);
-                if (temp.Contains(value))
+                if (lottery.Contains(value))
                 {
                     i--;
                     continue;
                 }
-                temp[i] = value;
+
+                lottery[i] = value;
 
             }
 
-            Array.Sort(temp);
+            Array.Sort(lottery);
 
-            foreach (var number in temp)
+            string result = null;
+            foreach (var number in lottery)
             {
-                Console.WriteLine(number);
+                result += number + ",";
             }
 
+            result = result.TrimEnd(',');
+
+            Console.WriteLine(result);
+           
 
             Console.ReadLine();
         }
