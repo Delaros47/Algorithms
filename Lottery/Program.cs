@@ -8,7 +8,6 @@ namespace Lottery
         static void Main(string[] args)
         {
 
-
             Random random = new Random();
             int[] lottery = new int[6];
 
@@ -36,7 +35,7 @@ namespace Lottery
             result = result.TrimEnd(',');
 
             Console.WriteLine(result);
-           
+
 
             Console.ReadLine();
         }
