@@ -75,7 +75,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vowels", "Vowels\Vowels.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrimorphicNumber", "TrimorphicNumber\TrimorphicNumber.csproj", "{0ECBCF98-71F8-4F04-B07E-04A82CA19A9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalToBinary", "DecimalToBinary\DecimalToBinary.csproj", "{2CC07C5C-8077-4324-B0D6-9C7BF4AE22B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecimalToBinary", "DecimalToBinary\DecimalToBinary.csproj", "{2CC07C5C-8077-4324-B0D6-9C7BF4AE22B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryToDecimal", "BinaryToDecimal\BinaryToDecimal.csproj", "{C6672E23-01E7-4440-876F-0DC83C467758}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +233,10 @@ Global
 		{2CC07C5C-8077-4324-B0D6-9C7BF4AE22B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CC07C5C-8077-4324-B0D6-9C7BF4AE22B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CC07C5C-8077-4324-B0D6-9C7BF4AE22B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6672E23-01E7-4440-876F-0DC83C467758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6672E23-01E7-4440-876F-0DC83C467758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6672E23-01E7-4440-876F-0DC83C467758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6672E23-01E7-4440-876F-0DC83C467758}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
